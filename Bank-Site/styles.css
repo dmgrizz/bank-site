@@ -1,0 +1,67 @@
+
+
+.top-header {
+  position: absolute;
+  z-index:2;
+  width:100%;
+  background-color: white;
+  padding: 30px;
+}
+.top-buttons {
+  display: inline-block;
+
+}
+
+.btn {
+  color: gray;
+  background-color: white;
+
+  padding: 30px 15px;
+  text-decoration: none;
+  background-image: linear-gradient(to right, #3DF688, 25%, #1EC8D0);
+  background-position: 50% 100%;
+  background-size: 0% 4px;
+  background-repeat: no-repeat;
+  transition: all 0.2s linear;
+}
+
+.btn:hover {
+  background-size: 100% 4px;
+
+
+}
+.eb-image {
+  padding-left: 50px;
+  padding-right: 100px;
+}
+.btn-invite {
+  color: white;
+  text-decoration: none;
+  margin-left: 250px;
+  padding: 12px 30px;
+  border-radius: 20px;
+  background: #3DF688;
+  background-image: linear-gradient(to right, #3DF688, 25%, #1EC8D0);
+
+
+}
+
+.top-container {
+
+  background-color: #ebecf1;
+  height:800px;
+
+}
+.phones{
+  position: absolute;
+  z-index: auto;
+  right:-120px;
+}
+.mid-container {
+  background-color: #dee3e2;
+  height:500px;
+}
+.bot-container {
+  background-color: #ebecf1;
+  height:500px;
+}
