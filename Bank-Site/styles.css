@@ -1,15 +1,23 @@
 
 
+body {
+  width:70%;
+  margin: auto 300px auto 300px;
+  font-family: Public Sans;
+
+}
 .top-header {
   position: absolute;
   z-index:2;
-  width:100%;
+  width:70%;
+  height: 10%;
   background-color: white;
-  padding: 30px;
+
+  display: inline-block;
 }
 .top-buttons {
   display: inline-block;
-
+  padding: 3.0rem;
 }
 
 .btn {
@@ -45,6 +53,16 @@
 
 
 }
+.btn-info {
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  top: 300px;
+  padding: 12px 30px;
+  border-radius: 20px;
+  background: #3DF688;
+  background-image: linear-gradient(to right, #3DF688, 25%, #1EC8D0);
+}
 
 .top-container {
 
@@ -52,15 +70,108 @@
   height:800px;
 
 }
-.phones{
+.side-container {
+  z-index: 2;
+  background-color: white;
+  width:13.65%;
+  height: 800px;
+  position: absolute;
+  right:10px;
+
+}
+.top-info{
+  position: absolute;
+  top:250px;
+  left:425px;
+  width:29%;
+  height:40%;
+}
+.top-h1 {
+  font-size: 56px;
+  font-weight: 300;
+
+}
+h1 {
+  color: hsl(233, 26%, 24%);
+
+
+
+}
+p {
+  color: hsl(233, 8%, 62%);
+  width: 80%;
+  text-align: left;
+  line-height: 1.5;
+
+}
+
+.phones {
   position: absolute;
   z-index: auto;
-  right:-120px;
+  right:140px;
+  background-clip: content-box;
+
 }
 .mid-container {
   background-color: #dee3e2;
-  height:500px;
+  height:600px;
+
+
 }
+
+.mid-info {
+
+  text-align: left;
+  position: absolute;
+  top:850px;
+  left:425px;
+  right:200px;
+  width:55%;
+  height:40%;
+
+}
+.boxes {
+  position: relative;
+  width: 100%;
+}
+.mid-h1 {
+  font-size: 36px;
+  font-weight: 400;
+}
+.mid-left-box {
+
+  background-color: #dee3e2;
+  position: relative;
+
+  width: 280px;
+  height: 250px;
+}
+.mid-middle-left-box {
+  background-color: #dee3e2;
+  position: relative;
+  left: 270px;
+  bottom:250px;
+  width: 280px;
+  height: 250px;
+}
+.mid-middle-right-box {
+  background-color: #dee3e2;
+  position: relative;
+  left:520px;
+  bottom: 500px;
+  width: 270px;
+  height: 250px;
+
+}
+.mid-right-box {
+  background-color: #dee3e2;
+  position: relative;
+  left:790px;
+  bottom: 750px;
+  width: 270px;
+  height: 250px;
+}
+
 .bot-container {
   background-color: #ebecf1;
   height:500px;
