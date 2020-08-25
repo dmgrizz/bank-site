@@ -1,7 +1,8 @@
 
 
 body {
-  width:70%;
+  width:1344px;
+  height: 1080px;
   margin: auto 300px auto 300px;
   font-family: Public Sans;
 
@@ -127,12 +128,13 @@ p {
   left:425px;
   right:200px;
   width:55%;
-  height:40%;
+  height:400px;
 
 }
 .boxes {
   position: relative;
   width: 100%;
+  height:400px;
 }
 .mid-h1 {
   font-size: 36px;
@@ -174,5 +176,53 @@ p {
 
 .bot-container {
   background-color: #ebecf1;
-  height:500px;
+  height:600px;
+
+}
+
+.articles {
+  position: relative;
+  width: 100%;
+
+
+}
+.latest-articles{
+  text-align: left;
+  position: absolute;
+}
+
+.article-1 {
+  position: relative;
+  background-color: white;
+  top:50px;
+  left:50px;
+  width: 250px;
+  height: auto;
+}
+.article-2 {
+  position: relative;
+  bottom: 250px;
+  left:300px;
+  width: 250px;
+  height:300px;
+}
+.article-3 {
+  position: relative;
+  bottom:550px;
+  left:550px;
+  width: 250px;
+  height:300px;
+}
+.article-4 {
+  position: relative;
+  bottom:850px;
+  left:800px;
+  width: 250px;
+  height:300px;
+}
+
+.img-articles{
+  border-radius: 3%;
+  width: 250px;
+  height:200px
 }
