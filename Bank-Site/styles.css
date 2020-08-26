@@ -1,30 +1,37 @@
 
 
-body {
-  width:1344px;
-  height: 1080px;
-  margin: auto 300px auto 300px;
-  font-family: Public Sans;
+/* @media screen and (min-width: 800px){ */
+  body {
+    width:1344px;
+    height: 1080px;
+    margin: auto 300px auto 300px;
+    font-family: Public Sans;
+    clear: both;
 
-}
+
+  }
+/* } */
+
 .top-header {
   position: absolute;
   z-index:2;
-  width:70%;
+  width: 70.6%;
   height: 10%;
   background-color: white;
 
-  display: inline-block;
+
 }
 .top-buttons {
   display: inline-block;
   padding: 3.0rem;
+
 }
 
 .btn {
   color: gray;
   background-color: white;
 
+  margin-top:0.5;
   padding: 30px 15px;
   text-decoration: none;
   background-image: linear-gradient(to right, #3DF688, 25%, #1EC8D0);
@@ -69,11 +76,11 @@ body {
 
   background-color: #ebecf1;
   height:800px;
+  overflow: hidden;
 
 }
 .side-container {
-  z-index: 2;
-  background-color: white;
+
   width:13.65%;
   height: 800px;
   position: absolute;
@@ -100,41 +107,44 @@ h1 {
 }
 p {
   color: hsl(233, 8%, 62%);
-  width: 80%;
+
   text-align: left;
   line-height: 1.5;
 
 }
 
-.phones {
-  position: absolute;
-  z-index: auto;
-  right:140px;
-  background-clip: content-box;
+  .phones {
+    position: absolute;
+    z-index: auto;
+    width:40%;
+    right:140px;
+    background-clip: content-box;
 
-}
+  }
+
+
 .mid-container {
   background-color: #dee3e2;
   height:600px;
-
+  display:flex;
 
 }
 
 .mid-info {
-
+  display:flex;
   text-align: left;
   position: absolute;
   top:850px;
   left:425px;
-  right:200px;
+
   width:55%;
   height:400px;
 
 }
 .boxes {
-  position: relative;
-  width: 100%;
-  height:400px;
+  position: absolute;
+  width: 70%;
+  left:425px;
 }
 .mid-h1 {
   font-size: 36px;
@@ -143,86 +153,123 @@ p {
 .mid-left-box {
 
   background-color: #dee3e2;
-  position: relative;
-
-  width: 280px;
-  height: 250px;
+  position: absolute;
+  top:250px;
+  width: 250px;
+  height: 300px;
 }
 .mid-middle-left-box {
   background-color: #dee3e2;
-  position: relative;
-  left: 270px;
-  bottom:250px;
-  width: 280px;
-  height: 250px;
+  position: absolute;
+  top:250px;
+  left:275px;
+  width: 250px;
+  height: 300px;
 }
 .mid-middle-right-box {
   background-color: #dee3e2;
-  position: relative;
-  left:520px;
-  bottom: 500px;
-  width: 270px;
-  height: 250px;
+  position: absolute;
+  left:550px;
+  top:250px;
+  width: 250px;
+  height: 300px;
 
 }
 .mid-right-box {
   background-color: #dee3e2;
-  position: relative;
-  left:790px;
-  bottom: 750px;
-  width: 270px;
-  height: 250px;
+  position: absolute;
+  left:825px;
+  top:250px;
+  width: 250px;
+  height: 300px;
 }
 
 .bot-container {
   background-color: #ebecf1;
   height:600px;
-
+  display:flex;
 }
 
 .articles {
-  position: relative;
-  width: 100%;
+  position: absolute;
+  width: 70%;
+  left:425px;
 
 
 }
 .latest-articles{
   text-align: left;
   position: absolute;
+  font-weight: 300;
+  top:45px;
+  font-size: 2.3rem;
 }
 
 .article-1 {
-  position: relative;
+  border-radius: 3%;
+  position: absolute;
   background-color: white;
-  top:50px;
-  left:50px;
+  top:150px;
+
   width: 250px;
-  height: auto;
+  height: 400px;
 }
 .article-2 {
-  position: relative;
-  bottom: 250px;
-  left:300px;
+  border-radius: 3%;
+  position: absolute;
+  background-color: white;
+  top:150px;
+  left:275px;
   width: 250px;
-  height:300px;
+  height: 400px;
 }
 .article-3 {
-  position: relative;
-  bottom:550px;
+  border-radius: 3%;
+  position: absolute;
+  background-color: white;
+  top:150px;
   left:550px;
   width: 250px;
-  height:300px;
+  height: 400px;
 }
 .article-4 {
-  position: relative;
-  bottom:850px;
-  left:800px;
+  border-radius: 3%;
+  position: absolute;
+  background-color: white;
+  top:150px;
+  left:825px;
   width: 250px;
-  height:300px;
+  height: 400px;
 }
 
 .img-articles{
-  border-radius: 3%;
+  border-top-left-radius: 3%;
+  border-top-right-radius: 3%;
   width: 250px;
   height:200px
+}
+
+.bot-text{
+  font-weight: 300;
+  line-height: 1.2;
+  text-align: left;
+  padding: 3px 25px;
+  font-size: 0.8rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+h4 {
+  font-weight: 300;
+  padding: 2px 25px;
+  margin-top: 0;
+  margin-bottom: 2px;
+}
+h6{
+
+  color: hsl(233, 8%, 62%);
+  padding: 5px 25px;
+  font-size: .5rem;
+  font-weight: 300;
+  margin-bottom: 0;
+
 }
